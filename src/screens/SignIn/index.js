@@ -20,7 +20,7 @@ export default () => {
   const navigation = useNavigation();
 
   const [emailField, setEmailField] = useState('');
-  const [passwordField, setpasswordField] = useState('');
+  const [passwordField, setPasswordField] = useState('');
 
   const hangleSignClick = () => {};
 
@@ -49,7 +49,7 @@ export default () => {
           IconSvg={LockIcon}
           placeholder="Digite sua senha"
           value={passwordField}
-          onChangeText={text => setpasswordField(text)}
+          onChangeText={text => setPasswordField(text)}
           password={true}
         />
 
